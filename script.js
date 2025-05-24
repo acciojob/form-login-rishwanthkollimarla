@@ -1,5 +1,5 @@
 function getFormvalue(event) {
-  event.preventDefault(); // Prevent form from submitting
+  event.preventDefault(); 
 
   const form = event.target;
   let firstName = form.fname.value.trim();
